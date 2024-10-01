@@ -1,0 +1,6 @@
+m1 = float(input("Enter m1: "))
+m2 = float(input("Enter m2: "))
+dist = float(input("Enter dist: "))
+const = 6.61 * (10 ** -11)
+f = const * m1 * m2 / (dist ** 2)
+print(f)
